@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 300;
+    font-size:1.1em;
+    color: #7a7373;
+}
+
+header {
+    background: linear-gradient(to left, #348AC7, #7474BF);
+    padding: 0.6em;
+    width: auto;
+}
+
+#logo {
+    margin: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 1.4em;
+    color: #ffffff;
+    padding-left: 1em;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 700;
+    font-size:2.3em;
+}
+
+h1, h2, h3, h4 {
+    color: #3e3939;
+}
+
+h2{font-size:1.3em}
+
+#hero {
+    font-size:1.2em;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+@media (max-width: 1200px) {
+    main {
+       max-width: 90%;
+       margin:auto;
+    }
+}
+
+.intro {
+    padding-top: 4em;
+    text-align: center;
+}
+
+.bouton {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.btn {
+    margin: 1.2em auto;
+    font-weight: 500;
+    font-size:1.1em;
+    border-radius: 10px;
+    padding: 1.5em;
+    background: linear-gradient(to left, #348AC7, #7474BF);
+    text-align: center;
+    text-decoration: inherit; /* à comprendre */
+    color: #ffffff !important;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.feature {
+    padding: 0.8em;
+}
+
+.block {
+    margin: 3em 0;
+}
+
+footer {
+    color:#ffffff;
+    width: auto;
+    text-align: center;
+    background: linear-gradient(to left, #348AC7, #7474BF);
+    padding: 0.6em;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 50em) {
+    .features {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 38em) {
+
+    header {
+        text-align: center;
+        padding: 0.6em 0;
+    }
+
+    .features {
+        display: block;
+    }
+
+    .feature {
+        padding: 0;
+    }
+}
