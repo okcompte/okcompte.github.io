@@ -105,8 +105,8 @@ h2 {
 }
 
 .highlight {
-  background-color: rgba(52, 138, 199, 0.2);
-  color: #348ac7;
+  background-color: rgba(16, 124, 65, 0.2);
+  color: #107c41;
   padding: 0 3px;
   border-radius: 3px;
 }
@@ -210,7 +210,7 @@ footer {
   color: #ffffff;
   width: auto;
   text-align: center;
-  background: linear-gradient(to left, #348ac7, #7474bf);
+  background-color:#107c41;
   padding: 0.6em;
 }
 
