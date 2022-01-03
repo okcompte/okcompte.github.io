@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: linear-gradient(to left, #348ac7, #7474bf);
+  background-color:#107c41;
   padding: 0.6em;
   width: auto;
 }
@@ -134,13 +134,26 @@ main {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+.search {
+  margin: 1.2em auto;
+  font-weight: 500;
+  font-size: 1.1em;
+  border-radius: 35px;
+  border:0.3em solid #bdbdbd;
+  background-color:white;
+  padding: 1em 3em;
+  text-align: left;
+  text-decoration: inherit; /* à comprendre */
+  color:#989191 !important;
+}
+
 .btn {
   margin: 1.2em auto;
   font-weight: 500;
   font-size: 1.1em;
   border-radius: 10px;
   padding: 1.5em;
-  background: linear-gradient(to left, #348ac7, #7474bf);
+  background-color:#107c41;
   text-align: center;
   text-decoration: inherit; /* à comprendre */
   color: #ffffff !important;
